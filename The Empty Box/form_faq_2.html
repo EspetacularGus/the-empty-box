@@ -1,0 +1,84 @@
+<html>
+<head>
+	<title>The Empty Box</title>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script language="JavaScript" src="scripts/form.js"></script>
+</head>
+<body>
+	<div id="site">
+		<div id="headline">
+			<a href="inicio.html"><h1>The Empty Box</h1>
+			<i class="fas fa-box-open action"></i></a>
+			<div id="menu">
+				<a class="item-menu" href="contato.html">Contato</a>
+				<a class="item-menu" href="ajuda.html">Como funciona?</a>			
+				<a class="item-menu" href="faq.html">FAQ</a>
+				<a class="item-menu" href="entrar.html"><b>Entrar</b></a>
+			</div>
+		</div>
+		<div id ="colorbar"></div>
+		<div id="content">
+			<div id="main-content">
+				<h2>Deixe sua pergunta/crítica:</h2>
+				<form name="dados" action="agradecimento.html" method="POST" target="_blank" onSubmit="return enviardados();">
+					<h4>Dados pessoais:</h4>
+					Nome(*):
+					<input type="text" name="nome" placeholder="Nome">
+					Sobrenome(*):
+					<input type="text" name="sobrenome" placeholder="Sobrenome">
+					<br>
+					E-mail(*):
+					<input type="email" name="email" placeholder="exemplo@email.com">
+					Data Nasc.: 
+					<input type="date" name="nascimento" placeholder="DD/MM/AA">
+					<br>
+					Sexo:
+					<select name="sexo">
+						<option value="masculino">Masculino</option>
+						<option value="feminino">Feminino</option>
+						<option value="outro">Outro</option>
+					</select>
+					<h4>Você deseja deixar uma:</h4>
+					<label>
+						<input type="radio" name="tipo" value="pergunta">Pergunta</input>
+					</label>
+					<label>
+						<input type="radio" name="tipo" value="critica">Crítica</input>
+					</label>
+					<label>
+						<input type="radio" name="tipo" value="sugestao">Sugestão</input>
+					</label>
+					<h4>Pergunta/Crítica:</h4>
+					Assunto(*):
+					<label class="big">
+						<input type="text" name="assunto">
+					</label><br>
+					<textarea name="mensagem" placeholder="Digite aqui sua mensagem!"></textarea>
+					<br>
+					<br>
+					<br>
+					<br>
+					<input class="sec-button" type="submit" value="Enviar">
+					<br>
+					<a class="center end" href="inicio.html">Voltar ao menu</a>
+					<br>
+					<br>
+				</form>
+			</div>
+		</div>
+		<div id="footer">
+			<small>Trabalho por: Gustavo de Oliveira Soares Silva | Etec de São Paulo</small>
+			<div id="media-icons">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="far fa-envelope"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-whatsapp"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

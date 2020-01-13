@@ -1,0 +1,494 @@
+																				/*-- Gerais --*/
+
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	font-family: roboto;
+	height: 100%;
+}
+
+#site {
+	position: relative;
+}
+	
+
+																				/*-- Divs --*/
+
+
+#headline {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color:white;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.4); 
+}
+
+#colorbar {
+	width: 100%;
+	height: 30px;
+	background-color: #598fe5;
+}
+
+#teste {
+	width: 100%;
+	background-color: red;
+}
+
+#menu {
+	position: relative;
+	display: inline-block;
+	float:right;
+	line-height: 60px;
+	margin-right: 80px;
+	font-size: 12pt;
+	font-weight: 500;
+	opacity: 0.87;
+}
+
+#slider {
+	width: 100%;
+	height: 500px;
+	background-image: url(imagens/caridade.jpg);
+}
+
+#footer {
+	width: 100%;
+	position: fixed;
+	height: 50px;
+	background-color: E0E0E0;
+	bottom: 0;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+}
+
+
+
+#slider-buttons {
+	position: relative;
+	float: right;
+	margin-right: 70px;
+	top: 160px;
+}
+
+#main-content {
+	margin-left: 80px;
+	margin-right: 80px;	
+	margin-bottom: 70px;
+	position: relative;
+	border: 50px;
+}
+
+#sec-content {
+	position: relative;
+	margin-left:80px;
+	margin-right: 80px;
+	margin-bottom: 30px;
+
+}
+
+#content {
+	position: relative;
+}
+
+#agradecimento {
+	position: relative;
+	top: 50%;
+	margin-bottom: 290px;
+}
+
+
+
+
+																				/*--Text--*/
+
+h1 {
+	display:inline-block;
+	color: black;
+	font-size: 26pt;
+	margin:0;
+	line-height: 60px;
+	margin-left: 80px;
+	font-family: "Grand Hotel";
+	font-weight: 550;
+}
+
+h2 {
+	font-size: 20pt;
+	font-weight: 550;
+	text-align: center;
+	opacity: 0.87;
+}
+
+h3 {
+	font-size:16pt;
+	color: #598fe5;
+}
+
+
+p {
+	opacity: 0,87;
+	text-align: justify;
+}
+
+#sec-content h3 {
+	text-align: center;
+}
+
+#footer small {
+	margin-left: 16px;
+	line-height: 50px;
+	font-size: 12pt;
+	font-weight: 400;
+	opacity: 0.54;
+}
+
+.fac h4 {
+	color: #598fe5;
+	margin-bottom:0;
+	font-size: 14pt;
+}
+
+.fac p {
+	margin-top: 0;
+}
+
+#agradecimento h3 {
+	position: relative;
+	text-align: center;
+}
+
+.coluna h3 {
+	margin-left: 20px;
+}
+
+																			/*-- Links -- */
+
+
+a:active{
+	color: black;
+}																			
+
+a:hover{
+	color: black;
+}
+
+a:link  {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	opacity: 0.87
+}
+
+#media-icons a:hover {
+	color: gray;
+}
+
+.sec-button a {
+	color: white;
+	width: 500px;
+	
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a.center {
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+	font-size: 12pt;
+	opacity: 0.87;
+	text-decoration: underline !important ;
+	text-align: center !important;
+}
+
+
+																			/*-- Objects --*/
+
+.item-menu {
+	margin-left: 20px;
+}
+
+.button {
+	width: 400px;
+	height: 70px;
+	background-color: #25ACE8;
+	color: white;
+	border-radius: 5px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 14pt;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+
+.sec-button {
+	position: relative;
+	width: 300px;
+	height: 50px;
+	background-color: #25ACE8;
+	font-size: 14pt;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	left: 50%;
+	margin-left: -150px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	box-shadow: 0px 3px 2px rgba(0,0,0,0.2);
+	border: none;
+	cursor: pointer;
+}
+
+.coluna {
+	position: relative;
+	margin-left: 250px;
+}
+
+
+																		/*-- Add --*/
+
+.orange {
+	background-color: #E8900C;
+}
+
+.blue {
+	color: #25ACE8;
+}
+
+.centralize {
+	text-align: center;
+}
+
+.gray {
+	background-color: #9aa2af;
+}
+
+.end {
+	margin-bottom: 60px;
+}
+
+																		/*-- Icons -- */
+
+#media-icons {
+	position: relative;
+	float: right;
+	display: inline-block;
+	margin-right: 16px;
+	line-height: 50px;
+	font-size: 24px;
+	opacity: 0.8;
+}
+
+.action {
+	font-size: 32px;
+}
+
+i.item-menu {
+	margin-left:32px;
+}
+
+.big-size {
+	position: relative;
+	font-size: 150px;
+	color: black;
+	float: left;
+	opacity: 0.87;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: px;
+	margin-right: px;
+}
+
+#main-content i {
+	margin-right: 80px;
+	display: inline-block;
+}
+
+#sec-content i {
+	margin-right: 80px;
+	display: inline-block;
+}
+
+.coluna i {
+	font-size: 32px;
+	margin-right: 10px !important;
+	margin-top: 10px !important;
+}
+
+#agradecimento i {
+	position: relative;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0.54;
+}
+
+
+
+																	/*-- Imgs --*/
+															
+#sec-content img{
+	position: relative;
+	display: inline-block;
+	left: 50%;
+	margin-left: -166px;
+	opacity: 0.87;
+}
+
+#img-headline {
+	width: 100%;
+	height: 250px;
+	background-image: url(imagens/empresa.png);
+}
+
+iframe {
+	position: relative;
+	left: 50%;
+	margin-left: -280px;
+}
+
+																	/*-- Forms --*/
+																	
+input {
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.54);
+}
+
+label {
+	cursor: pointer;
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+	margin-left: 75px;
+	padding: 0;
+}
+
+select {
+	margin-left: 10px;
+	width: 100px;
+	height: 25px;
+	color: rgba(0,0,0,0.54)
+}
+
+.big input{
+	width: 400px;
+}
+
+																	/*-- Página de login --*/
+																	
+.entrar {
+	width: 100%; 
+	height: 100%;
+	background: #598fe5; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.entrar .container {
+	height: 450px; 
+	width: 450px; 
+	background: #fff;
+	border-radius: 8px; 
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+
+.entrar input[type="text"],
+.entrar input[type="password"]{
+	background-color: #eee;
+	width: 300px;
+	color: #757578;
+	border: solid 1px;
+	border-color: #eee;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.entrar h1{
+	position: relative;
+	left: 35px;
+}
+
+.entrar i{
+	position: relative;
+	left: 37px;
+}
+
+																	/*-- Página de formulário --*/
+.formulario {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+	background: #598fe5; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+	
+.formulario .container {
+	position: relative;
+	height: 930px;
+	width: 800px; 
+	background: #fff; 
+	border-radius: 8px; 
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2); 
+	text-align: center; 
+	align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"]{
+	background-color: white;
+	width: 400px;
+	color: #757578;
+	border: solid 1px;
+	border-color: 598fe5;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	border-color: f9e452;
+	background-color: f9eb8b;
+}
+
+select{
+	background-color: white;
+	color: #757578;
+	border: solid 1px;
+	border-color: 598fe5;
+	border-radius: 5px;
+}
+
+textarea{
+	background-color: white;
+	color: #757578;
+	border: solid 1px;
+	border-color: 598fe5;
+	border-radius: 5px;
+	resize: none;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.formulario .sec-button{
+	float: left;
+}
